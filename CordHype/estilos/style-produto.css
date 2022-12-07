@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------- CABEÇALHO ------------- */
+
+#cabecalho {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pesquisa button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: -10px;
+    margin-right: 10px;
+    padding: 0px 10px;
+    top: 40px;
+}
+
+#pesquisa input{
+    padding: 6.5px 0px 1px 0px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    top: 40px;
+
+}
+
+#pesquisa ion-icon {
+    font-size: 18px;
+}
+
+#pesquisa input::-webkit-input-placeholder {
+    position: absolute;
+    top: 5px;
+}
+
+#pesquisa input:focus {
+    border-radius: 0px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#pesquisa button:hover {
+    cursor: pointer;
+}
+
+#lo-ca a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lo-ca a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.nav-header {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-header > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+.nav-header > a:hover {
+    text-decoration: underline;
+}
+
+a {
+   color: black;
+}
+
+/* ---------- FOTO - PRODUTO ------------- */
+
+#foto-produto {
+    width: 600px;
+    height: 600px;
+    margin: 30px 0px 0px 30px;
+}
+
+/* ---------- INFORMAÇÕES ------------- */
+
+#titulo-produto {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 30px;
+}
+
+#desc-produto {
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px 0px 0px 30px;
+    font-size: 20px;
+    width: 500px;
+}
+
+#categoria {
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 120px 0px 0px 30px;
+    font-size: 20px;
+    width: 500px;
+}
+
+#preco-produto {
+    color: rgb(16, 99, 0);
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 180px 0px 0px 30px;
+    font-size: 60px;
+}
+
+/* --------------- BOTÃO ------------- */
+
+#botoes {
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 290px 0px 0px 100px;
+    font-size: 50px;
+    
+}
+
+#botoes #comprar-agr {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(9, 128, 39);
+    padding: 20px 30px;
+    border: none;
+    font-size: 18px;
+}
+
+#botoes #mandar-carrinho {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+}
+
+#botoes #comprar-agr:hover {
+    background-color: rgb(5, 65, 20);
+    cursor: pointer;
+}
+
+#botoes #mandar-carrinho:hover {
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+#botoes img {
+    width: 250px;
+    margin-left: 140px;
+    margin-top: -10px
+}
+
+#fornecedor-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+/* ---------- MAIS IMAGENS ------------- */
+#mais-imagem h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+#titulo-mais {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+}
+
+#mais-imagem {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#mais-imagem img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* ---------- OPÇÃO ADMINISTRADOR ------------- */
+
+#opcao-dash {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top:20px;
+}
+
+#opcao-dash .dash-o  {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+#opcao-dash .adicionar {
+    background-color: rgb(0, 182, 0);
+}
+#opcao-dash .atualizar {
+    background-color: rgb(12, 0, 182);
+}
+#opcao-dash .deletar {
+    background-color: rgb(182, 0, 0);
+}
+
+#opcao-dash .adicionar:hover {
+    background-color: rgb(0, 77, 0);
+}
+#opcao-dash .atualizar:hover {
+    background-color: rgb(7, 1, 78);
+}
+#opcao-dash .deletar:hover {
+    background-color: rgb(78, 3, 3);
+}
+
+/* ---------- rodape ------------- */
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+}
+
+footer h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 18px;
+}

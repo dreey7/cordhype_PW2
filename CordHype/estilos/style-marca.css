@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lo-ca a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lo-ca a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.nav-header {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-header > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+.nav-header > a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lo-ca a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lo-ca a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.nav-header {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-header > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+.nav-header > a:hover {
+    text-decoration: underline;
+}
+
+a {
+   color: black;
+}
+
+/* ---------- Marcas ------------- */
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.logo img {
+    background-color: black;
+    padding: 10px;
+    width: 140px;
+} 
+
+.logo .adidas {
+    width: 105px;
+    padding: 10px 27.5px;
+}
+
+.logo .nike {
+    padding: 20px 10px;
+}
+
+.logo .gucci {
+    width: 105px;
+    padding: 9px 27.5px;
+}
+
+.logo .oakley {
+    width: 150px;
+    padding: 20px 5px;
+}
+
+/* ---------- Hovers ------------- */
+
+.logo img:hover {
+    background-color: rgb(45, 44, 44);
+} 
