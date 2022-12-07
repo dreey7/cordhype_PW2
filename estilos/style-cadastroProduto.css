@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* SETA VOLTAR ---------------------------------------------*/
+
+a #seta-voltar {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 60px;
+    top: 0px;
+    left: 5px;
+}
+
+/* FORMULARIO ---------------------------------------------*/
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario input, select, option {
+    width: 230px;
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#formulario #desc {
+    padding: 0px 65px 70px 0px ;
+  
+}
+
+#formulario label {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 232px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.ver {
+    position: relative;
+    right: 25px;
+    font-size: 18px;
+    top: 4px;
+    cursor: pointer;
+}
+
+/* RODAPÉ ---------------------------------------------*/
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 37px;
+    bottom: 0;
+}
+
+footer h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 18px;
+}
+
+/* HOVERS ---------------------------------------------*/
+
+#formulario input, select, option:focus{
+    border-radius: 0px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#formulario button:hover {
+   text-decoration: underline;
+}
+
+a #seta-voltar:hover {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+}
